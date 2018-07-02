@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="first.nd.bbank.MainActivity">
+
+   <!-- <Button
+        android:text="Search Donor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/White"
+        android:background="@drawable/home_button"
+        android:id="@+id/btn_need_blood"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Be a Donor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/White"
+        android:background="@drawable/home_button"
+        android:id="@+id/btn_donor_profile"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/btn_need_blood"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Informations"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/White"
+        android:background="@drawable/home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_info"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btn_donor_profile"
+        android:layout_centerHorizontal="true" />
+-->
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        style="@style/CategoryTab"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

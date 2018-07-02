@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "527494379128",
+    "firebase_url": "https://bbank-377ad.firebaseio.com",
+    "project_id": "bbank-377ad",
+    "storage_bucket": "bbank-377ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527494379128:android:e8d2a92edb0818f2",
+        "android_client_info": {
+          "package_name": "first.nd.bbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527494379128-mujrrjcq9j5c225acqu7uvaka40vooek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "first.nd.bbank",
+            "certificate_hash": "a4d469c6fdfacf195ab93a37f4de228431b6ae93"
+          }
+        },
+        {
+          "client_id": "527494379128-5f7iuqtrua9f7ifvomlkih32m569vv52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw7d7YzkWv_A_bWRcwOAKnRqiGzOUWPt8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527494379128-5f7iuqtrua9f7ifvomlkih32m569vv52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
